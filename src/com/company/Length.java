@@ -12,8 +12,6 @@ public class Length {
         this.y2 = y2;
     }
 
-   
-
     public double calculateLengthOfTheLine(){
         return Math.sqrt(Math.pow((this.x1-this.x2),2) + Math.pow((this.y1-this.y2),2));
     }
